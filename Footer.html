@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reciprocity</title>
+
+<link rel="stylesheet" href="CSS1/Footer.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"> <!--Font awesome-->
+
+</head>
+<body>
+    
+
+
+   <!--Footer-->
+
+   <div class="footer">
+    <footer>
+        <div class="row123">
+            <div class="col-sm-3 col1" >
+                <h3>Products</h3>
+                <p>Apparel</p>
+                <p>Fashion Clothes</p>
+                <p>Men Casual Clothes</p>
+                <p>Kids Clothes</p>
+                <p>Accessories</p>
+                <p>Women Clothes</p>
+                <p>New Arrival</p>
+                <p>Top Seller</p>
+            </div>
+            <div class="col-sm-3 col2" >
+                <h3>Company Info</h3>
+                <li>About Us</li>
+                <li>Careers</li>
+                <li>Reciprocity brands</a></li>
+                <li>Contact Us</li>
+            </div>
+            <div class="col-sm-3 col3">
+                <h3>Support</h3>
+                <p>Help</p>
+                <p>Store Location</p>
+                <p>Payment</p>
+                <p>Delivery</p>
+                <p>Promotion</p>
+                <p>Return & Refund</p>
+            </div>
+            <div class="col-sm-3 col4">
+                <h3>Follow us</h3>
+                <ul>
+                    <a href="https://web.facebook.com/profile.php?id=100008544011061">
+                        <li><ion-icon name="logo-facebook" id="facebook"></ion-icon></li>
+                    </a>
+                    <a href="https://twitter.com/">
+                        <li> <ion-icon name="logo-twitter" id="twitter"></ion-icon></li>
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <li> <ion-icon name="logo-instagram" id="instagram"></ion-icon></li>
+                    </a>
+                </ul>
+                <p>reciprocity@gmail.com.ph</p>
+            </div>
+        </div>
+    </footer>
+    <hr>
+    <p class="copy">Copyright © 2024 - All Rights Reserved </p>
+</div>
+
+<!--end-->
+</body>
+<!--Logo JS-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <!--EmailJS-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "ScrhvPdjQLbkLoMbb",
+            });
+        })();
+
+
+
+        function sendMail() {
+  let parms = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    message: document.getElementById("message").value,
+
+  }
+
+  emailjs.send("service_ted0zy2", "template_soyjlup", parms).then(alert("Email Sent!!!"))
+}
+    </script>
+
+
+    <!--JS from folder-->
+    <script src="./js/Contactus.js"></script>
+
+</html>
