@@ -1,0 +1,57 @@
+Danhil Castro Baluyot
+.container {
+    background-color: #F4EAE0;
+}
+
+.first_col {
+    background-color: #F4DFC8;
+    height: 550px;
+    position: relative;
+    width: 550px;
+    left: 125px;
+    top: 90px;
+    border-radius: 20px;
+}
+
+.img-fluid {
+    border-radius: 20px;
+}
+
+.btn-primary {
+    background-color: rgb(0, 0, 0);
+    border: #F4EAE0;
+}
+
+.btn-primary:hover {
+    background-color: #bbb;
+}
+
+.form-control {
+    height: 52px;
+    background-color: #ffff;
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none !important;
+    border: 1px solid #555;
+}
+
+.form-control[type=text]:focus {
+    border: 2px solid #555;
+}
+
+@media only screen and (max-width:600px) {
+    .first_col {
+        position: initial;
+        left: 0;
+    }
+
+    .last_row {
+        left: 0 !important;
+        width: 100% !important;
+        height: 480 !important;
+        top: 0 !important;
+
+    }
+}
+
+

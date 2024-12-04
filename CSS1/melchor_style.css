@@ -1,0 +1,159 @@
+/*Cover-----*/
+/*PICTURE NI ATE GURL*/
+.Mother223 .Bakcground123{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    background-image: url('../Photoshop/Coverpage.png');
+}
+
+/*PICTURE NI ATE GURL*/
+
+
+
+
+.Left{/*Ito Talaga yung Mother Div*/
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+
+.logo123{ /*ITO YUNG LOGO Sa RIGHT!!!!!!!!*/
+    width: 35vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    background-image: url('../img/Logo1.png');
+    align-self: flex-end;
+    justify-self: flex-end;
+    flex-shrink: 0;
+    opacity: 40%;
+}
+
+.backgroundBlack/*Mother div Ni backgroundBlack*/
+{
+    width: 65%;
+    height: 50%;
+    flex-shrink: 0;
+    background: rgba(23, 24, 26, 0.40);
+    display: flex;
+   
+ 
+}
+
+.backgroundBlack{ /* ITO YUNG NASA LEFT na Black Background*/
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   
+   
+}
+
+.backgroundBlack h4{ /*ITO YUNG TEXT NA Spring/Summer Collection 2024 */
+    color: rgba(255, 255, 255, 0.50);
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 2.8vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+
+margin-bottom: 0%;
+}
+
+.backgroundBlack h1{ /*ITO YUNG TEXT NA SGet Up To 30% Off New Arrivals */
+    margin-top: 0%;
+    color: #FFF;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size:  3.8vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+/*Button */
+
+.backgroundBlack button{
+    margin-top: 2vh;
+    width: 25vw;
+    height: 12vh;
+    border-radius: 100px;
+
+}
+
+.btn-danger {
+    font-size: 2.1vw!important;
+    color: rgb(0, 0, 0)!important;
+    opacity:90%;
+    font-weight: 400!important;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-danger:hover{
+color: white!important;
+opacity: 100%;
+
+}
+
+
+/*----------------------------------*/
+
+
+.images{/*Parent DIV*/
+    display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+ 
+
+}
+
+
+.images div{
+    width: 300px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+
+.image4{
+
+    border: 1px solid darkgray;
+    box-shadow: 1px 6px 9px;  
+    cursor: pointer;
+}
+
+.image4:hover{
+    box-shadow: 1px 3px 9px;
+}
+
+
+
+.picturetext{
+    color: black;
+    margin-top: 80%;
+    margin-left: 25%;
+    width: 60%;
+    font-size: 30px;
+    font-family: barlow condensed, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    font-weight: normal;
+    text-align: center;
+    
+}
+
+
+/* --------media Querie ----------- */
+
+
